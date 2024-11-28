@@ -11,12 +11,8 @@ html {
   }
   
   .column {
-      display: flex;
-      flex-direction: column;
-      padding-left: 10%;
-      padding-right: 10%;
-      max-width: 100rem;
-      padding-bottom: 10%;
+    float: left;
+    width: 50%;
   }
   
   
