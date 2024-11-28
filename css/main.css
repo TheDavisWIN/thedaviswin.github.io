@@ -20,7 +20,7 @@ html {
       font-weight: 400;
       margin-top: 4rem;
       margin-bottom: 1.5rem;
-      font-size: 3.2rem;
+      font-size: 10vw;
       line-height: 1;
       color: white;
   }
@@ -30,12 +30,14 @@ html {
   }
   
   p {
-      font-size: 1.4rem;
+      font-size: 5vw;
       line-height: 2rem;
       color: white;
   }
 
   li {
+      font-size: 5vw;
+      line-height: 2rem;
       color: white;
   }
   
