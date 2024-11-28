@@ -53,3 +53,8 @@ html {
       padding-top: 50px;
       padding-bottom: 50px;
   }
+
+  .thumbnail iframe {
+    width: 1028px;
+    height: 768px;
+  }
