@@ -49,3 +49,15 @@ html {
       padding-top: 50px;
       padding-bottom: 50px;
   }
+
+  img.align-self {
+    align-self: center;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .column,
+    .column {
+      width: 100%;
+      text-align: center;
+    }
+  }
