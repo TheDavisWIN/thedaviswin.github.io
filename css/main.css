@@ -38,6 +38,10 @@ html {
       line-height: 2rem;
       color: white;
   }
+
+  li {
+      color: white;
+  }
   
   .demo_font_arial{
       font-family: arial, sans-serif;
