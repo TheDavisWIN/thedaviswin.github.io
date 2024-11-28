@@ -32,7 +32,12 @@
                     Visit the Web-App: https://ceakii.github.io/YummiGo/
                 </li>
             </ul>
-            <iframe src="https://ceakii.github.io/YummiGo/"height=1080px width=720px></iframe>
+            <iframe id = "yummigo" src="https://ceakii.github.io/YummiGo/"></iframe>
+            <script>
+                var yummigo = document.getElementById("yummigo");
+                yummigo.width = yummigo.contentWindow.document.body.scrollWidth;
+                yummigo.height = yummigo.contentWindow.document.body.scrollHeight;
+             </script>
 
             <h1>Personal Portfolio Website | November 2024</h1>
             <ul>
@@ -56,7 +61,12 @@
                     Visit the page: https://www.greenfoot.org/scenarios/34277
                 </li>
             </ul>
-            <iframe src="https://www.greenfoot.org/scenarios/34277?embed=true"height=1080px width=720px></iframe>
+            <iframe id = "pong" src="https://www.greenfoot.org/scenarios/34277?embed=true"></iframe>
+            <script>
+                var pong = document.getElementById("pong");
+                pong.width = pong.contentWindow.document.body.scrollWidth;
+                pong.height = pong.contentWindow.document.body.scrollHeight;
+             </script>
         </section>
     </body>
 </html>
