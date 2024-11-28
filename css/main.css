@@ -14,6 +14,18 @@ html {
     float: left;
     width: 50%;
   }
+
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
   
   
   h1 {
@@ -55,8 +67,8 @@ html {
   }
 
   @media screen and (max-width: 1000px) {
-    .column,
-    .column {
+    .column-66,
+    .column-33 {
       width: 100%;
       text-align: center;
     }
